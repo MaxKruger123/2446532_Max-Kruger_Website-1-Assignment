@@ -1,0 +1,222 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(images/pexels-lucie-liz-3165335.jpg);
+    background-size: cover;
+    height:  100vh;
+}
+
+.Header{
+    background-color: rgba(125, 32, 161, 0.7);
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+}
+
+
+
+.HeaderButtons{
+    float: right;
+    margin-right: 740px;
+}
+
+.HeaderButtons li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-right: 30px;
+    
+}
+
+.HeaderButtons li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover{
+    border: 5px solid rgb(83, 13, 83);
+    padding: 2px 2px;
+    border-radius: 15px;
+}
+
+li a.active{    
+    color: rgb(125, 32, 161);
+    background: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+#logo{
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.Design{
+    background-color: rgba(23, 25, 134, 0.7);
+    backdrop-filter: blur(0px);
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: inline;
+    z-index: 1;
+    position: absolute;
+}
+
+
+
+#BackButton{
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.DesignSectionHeading{
+    margin-top: 50px;
+    
+    
+}
+
+.Heading{
+    margin-left: 450px;
+    font-size: 46px;
+    color: rgb(125, 32, 161);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.Document{
+    background-color: white;
+    width: 90%;
+    height: 1000%;
+    margin-left: 80px;
+    border-radius: 50px;
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.Document p{
+    color: black;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Document span{
+    background-color: rgb(125, 32, 161);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    
+    
+}
+
+.Document h2{
+    text-decoration: underline;
+    text-decoration-color: white;
+    margin-top: 30px;
+    line-height: normal;
+    display: inline-block;
+}
+
+#DocumentAlign{
+    margin-left: 30px;
+    
+}
+
+#FirstWireframe{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.Document img{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-left: 550px;
+}
+
+#PortfolioImage{
+    transform: rotate(270deg);
+    width: 400px;
+    margin-left:30px;
+}
+
+#HomePageImage{
+    margin-left: 50px;
+    
+}
+
+#BlogsImage{
+    transform: rotate(270deg);
+}
+
+#DesignImage{
+    transform: rotate(270deg);
+    margin-left: 30px;
+}
+
+#SketchOne{
+    transform: rotate(270deg);
+}
+
+#SketchTwo{
+    transform: rotate(270deg);
+}
+
+#FinalSketch{
+    transform: rotate(270deg);
+}
+
+#Homepage{
+    margin-left: 0px;
+    width: 500px;
+    height: 400px;
+}
+
+#BlogWireframe{
+    transform: rotate(270deg);
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+
+#Design{
+    transform: rotate(270deg);
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+
+#Weekly{
+    transform: rotate(270deg);
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: -90px;
+}
+
+
+
+#Portfolio{
+    margin-left: 0px;
+    width: 500px;
+    height: 300px;
+    
+    
+}

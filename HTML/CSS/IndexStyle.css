@@ -1,0 +1,214 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(images/pexels-lucie-liz-3165335.jpg);
+    background-size: cover;
+    height:  100vh;
+    position: relative;
+}
+
+.Header{
+    background-color: rgba(125, 32, 161, 0.7);
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+    
+}
+
+@media (max-width: 1800px){
+    .burger-button{
+        display: block;
+    }
+    .HeaderButtons{
+        position: absolute;
+        width: 100%;
+        background: rgb(72, 18, 94);
+        height: 100vh;
+        text-align: center;
+        top: 80px;
+        left: -120%;
+        z-index: 9;
+    }
+
+    .HeaderButtons li{
+        display: block;
+        padding: 30px 0px;
+    }
+
+    .HeaderButtons li a{
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+        position: fixed;
+        display: block;
+        
+    }
+}
+
+
+.HeaderButtons{
+    float: right;
+    margin-right: 750px;
+}
+
+#Search{
+    float: right;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+#bars{
+    float: right;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+
+.HeaderButtons li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-right: 30px;
+    
+}
+
+.HeaderButtons li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    border: 5px solid rgb(83, 13, 83);
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+li a.active{    
+    color: rgb(125, 32, 161);
+    background: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+#logo{
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.info{
+    background-color: rgba(125, 32, 161, 0.7);
+    height: 600px;
+    backdrop-filter: blur(10px);
+    color: white;
+    margin-top: 150px;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+}
+
+#GameDevLogo{
+    width: 500px;
+    height: 500px;
+    border-radius: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.MaxKruger h1{
+    font-size: 72px;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.MaxKruger{
+    display: inline-block;
+   
+    
+}
+#quote{   
+    margin-top: -40px;
+    margin-left:30px;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(173, 172, 172);
+
+}
+
+
+.DescriptionList li span{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.DescriptionList li{
+    color: rgb(125, 32, 161);
+    font-size: 24px;
+}
+
+.DescriptionList{
+    list-style-type: none;
+}
+
+.DescriptionList p{
+   margin-left: 20px; 
+   font-size: 24px;
+}
+
+ul p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.burger-button{
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: 27px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 1800px){
+    .burger-button{
+        display: block;
+    }
+    .HeaderButtons{
+        position: fixed;
+        width: 100%;
+        background: rgb(72, 18, 94);
+        height: 100vh;
+        text-align: center;
+        top: 80px;
+        left: -120%;
+    }
+
+    .HeaderButtons li{
+        display: block;
+        padding: 30px 0px;
+    }
+
+    .HeaderButtons li a{
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+
+
+
+
