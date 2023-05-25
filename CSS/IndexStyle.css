@@ -181,7 +181,11 @@ ul p{
     display: none;
 }
 
-
+.container{
+    display: flex;
+    margin-top: 5%;
+    
+}
 
 .container button{
     background: rgb(255, 92, 92);
@@ -189,8 +193,7 @@ ul p{
     border-radius: 5px;
     border: 5px solid black;
     padding: 10px 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
+    margin-left: 40%;
     transition: ease-in-out 0.5s;
 }
 
@@ -199,6 +202,10 @@ ul p{
     color: black;
     border: 5px solid black;
     cursor: pointer;
+}
+
+#quote{
+
 }
 
 
