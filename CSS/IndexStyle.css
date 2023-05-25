@@ -109,7 +109,7 @@ li a.active{
     margin-top: 150px;
     display: flex;
     position: absolute;
-    z-index: -1;
+    
 }
 
 #GameDevLogo{
@@ -181,34 +181,7 @@ ul p{
     display: none;
 }
 
-@media (max-width: 1800px){
-    .burger-button{
-        display: block;
-    }
-    .HeaderButtons{
-        position: fixed;
-        width: 100%;
-        background: rgb(72, 18, 94);
-        height: 100vh;
-        text-align: center;
-        top: 80px;
-        left: -120%;
-    }
 
-    .HeaderButtons li{
-        display: block;
-        padding: 30px 0px;
-    }
-
-    .HeaderButtons li a{
-        font-size: 32px;
-        text-transform: uppercase;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-}
 
 .container button{
     background: rgb(255, 238, 0);
@@ -224,6 +197,7 @@ ul p{
     background: white;
     color: black;
     border: 5px solid black;
+    cursor: pointer;
 }
 
 
