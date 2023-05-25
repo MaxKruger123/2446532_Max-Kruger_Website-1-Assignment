@@ -103,7 +103,7 @@ li a.active{
 
 .info{
     background-color: rgba(125, 32, 161, 0.7);
-    height: 700px;
+    height: 85vh;
     backdrop-filter: blur(10px);
     color: white;
     margin-top: 150px;
@@ -132,14 +132,7 @@ li a.active{
    
     
 }
-#quote{   
-    margin-top: -40px;
-    margin-left:30px;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(173, 172, 172);
 
-}
 
 
 .DescriptionList li span{
@@ -183,8 +176,8 @@ ul p{
 
 .container{
     display: flex;
-    margin-top: 5%;
     
+    width: 100%;
 }
 
 .container button{
@@ -193,7 +186,7 @@ ul p{
     border-radius: 5px;
     border: 5px solid black;
     padding: 10px 20px;
-    margin-left: 40%;
+    margin-left: 5%;
     transition: ease-in-out 0.5s;
 }
 
@@ -205,7 +198,15 @@ ul p{
 }
 
 #quote{
-
+    margin-left: 5%;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(173, 172, 172);
 }
+
+.article{
+    width: 100%;
+}
+
 
 
