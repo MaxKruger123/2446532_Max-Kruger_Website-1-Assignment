@@ -103,7 +103,7 @@ li a.active{
 
 .info{
     background-color: rgba(125, 32, 161, 0.7);
-    height: 600px;
+    height: 700px;
     backdrop-filter: blur(10px);
     color: white;
     margin-top: 150px;
