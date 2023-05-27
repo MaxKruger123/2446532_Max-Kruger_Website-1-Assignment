@@ -75,6 +75,7 @@ li a.active{
 
 .BlogPosts button:hover{
     border: 5px solid gold;
+    cursor: pointer;
 }
 
 .BlogPosts li span{
