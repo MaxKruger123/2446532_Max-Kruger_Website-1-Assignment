@@ -73,6 +73,10 @@ li a.active{
     margin-top: 2%;
 }
 
+.BlogPosts button:hover{
+    border: 5px solid gold;
+}
+
 .BlogPosts li span{
     background-color: white;
     padding: 5px 10px;
