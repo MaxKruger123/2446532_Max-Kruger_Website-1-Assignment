@@ -65,8 +65,12 @@ li a.active{
     margin-right: auto;
     margin-top: 20px;
     display: flex;
-    
+    overflow: auto;
     position: absolute;
+}
+
+.BlogPosts button{
+    margin-top: 2%;
 }
 
 .BlogPosts li span{
