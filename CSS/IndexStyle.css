@@ -13,6 +13,8 @@ body{
     width: 100%;
     position: fixed;
     z-index: 1000;
+    flex-direction: row;
+    display: flex;
 }
 
 @media (max-width: 1800px){
@@ -50,8 +52,8 @@ body{
 
 
 .HeaderButtons{
-    float: right;
-    margin-right: 750px;
+    
+    
 }
 
 #Search{
@@ -95,10 +97,11 @@ li a.active{
 }
 
 #logo{
-    width: 60px;
+    width: 65px;
     margin-left: 40px;
-    margin-top: 10px;
-    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
 
 .info{

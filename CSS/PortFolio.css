@@ -10,14 +10,14 @@ body{
     backdrop-filter: blur(7px);
     height: 80px;
     width: 100%;
-    
+    display: flex;
+    flex-direction: row;
 }
 
 
 
 .HeaderButtons{
-    float: right;
-    margin-right: 740px;
+   
 }
 
 .HeaderButtons li{
@@ -42,10 +42,10 @@ li a.active{
 }
 
 #logo{
-    width: 60px;
+    width: 65px;
     margin-left: 40px;
-    margin-top: 10px;
-    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .info{
