@@ -62,7 +62,7 @@ li a.active{
 .Design{
     background-color: rgba(23, 25, 134, 0.7);
     backdrop-filter: blur(10px);
-    height: 1100%;
+    height: 1200%;
     width: 100%;
     
     
@@ -130,7 +130,7 @@ li a.active{
     padding: 10px 15px;
     text-shadow: 10px;
     font-size: 34px;
-    font-weight: bold;
+   
     
 }
 
