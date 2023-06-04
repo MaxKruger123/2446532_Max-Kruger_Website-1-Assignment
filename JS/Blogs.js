@@ -25,3 +25,23 @@ function week6Click(){
 function week7Click(){
     window.location.replace("Week7.html");
 }
+
+function week8Click(){
+    window.location.replace("Week8.html");
+}
+
+function week9Click(){
+    window.location.replace("Week9.html");
+}
+
+function week10Click(){
+    window.location.replace("Week10.html");
+}
+
+function week11Click(){
+    window.location.replace("Week11.html");
+}
+
+function week12Click(){
+    window.location.replace("Week12.html");
+}

@@ -10,14 +10,13 @@ body{
     backdrop-filter: blur(7px);
     height: 80px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 
 
-.HeaderButtons{
-    float: right;
-    margin-right: 740px;
-}
+
 
 li a:hover{
     border: 5px solid rgb(83, 13, 83);
@@ -47,30 +46,32 @@ li a.active{
 }
 
 #logo{
-    width: 60px;
+    width: 65px;
     margin-left: 40px;
-    margin-top: 10px;
-    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .Blog{
     background-color: rgba(23, 25, 134, 0.7);
     backdrop-filter: blur(7px);
-    height: 110%;
-    width: 87%;   
+    height: 100vh;
+    width: 100vw;   
     margin-top: 20px;
-    display: flex;
-    margin-left: 100px;
-    margin-right: 200px;
+    display: block;
+    
     line-height: 40px;
+    overflow: auto;
 }
 
 #Week3heading{
-    background-color: white;
+   
     padding: 10px 30px;
     border-radius: 40px;
-    color: rgb(125, 32, 161);
-    margin-left: 260px;
+    color: white;
+    font-weight: bold;
+    margin-left: 25%;
+    margin-top: 15%;
 }
 
 .Week3BlogPost{

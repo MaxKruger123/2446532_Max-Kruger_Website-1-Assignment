@@ -18,9 +18,6 @@ body{
 
 
 
-.HeaderButtons{
-    
-}
 
 .HeaderButtons li{
     display: inline-block;
@@ -138,6 +135,36 @@ li a.active{
 }
 
 .Week7{
+    background-color: purple;
+    box-shadow: 10px 10px 5px;
+    border-radius: 25px;
+}
+
+.Week8{
+    background-color: purple;
+    box-shadow: 10px 10px 5px;
+    border-radius: 25px;
+}
+
+.Week9{
+    background-color: purple;
+    box-shadow: 10px 10px 5px;
+    border-radius: 25px;
+}
+
+.Week10{
+    background-color: purple;
+    box-shadow: 10px 10px 5px;
+    border-radius: 25px;
+}
+
+.Week11{
+    background-color: purple;
+    box-shadow: 10px 10px 5px;
+    border-radius: 25px;
+}
+
+.Week12{
     background-color: purple;
     box-shadow: 10px 10px 5px;
     border-radius: 25px;
