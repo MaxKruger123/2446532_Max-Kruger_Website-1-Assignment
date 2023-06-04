@@ -2,8 +2,10 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: url(images/pexels-lucie-liz-3165335.jpg);
     background-size: cover;
-    height:  100vh;
-    position: relative;
+    margin: 0;
+    padding: 0;
+    
+   
 }
 
 .Header{
@@ -11,59 +13,21 @@ body{
     backdrop-filter: blur(7px);
     height: 80px;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: row;
+    display: flex;
+    margin-top: 0;
     
 }
 
-@media (max-width: 1800px){
-    .burger-button{
-        display: block;
-    }
-    .HeaderButtons{
-        position: absolute;
-        width: 100%;
-        background: rgb(72, 18, 94);
-        height: 100vh;
-        text-align: center;
-        top: 80px;
-        left: -120%;
-        z-index: 9;
-    }
-
-    .HeaderButtons li{
-        display: block;
-        padding: 30px 0px;
-    }
-
-    .HeaderButtons li a{
-        font-size: 32px;
-        text-transform: uppercase;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-        position: fixed;
-        display: block;
-        
-    }
-}
 
 
-.HeaderButtons{
-    float: right;
-    margin-right: 750px;
-}
 
-#Search{
-    float: right;
-    margin-right: 0px;
-    margin-top: 10px;
-}
 
-#bars{
-    float: right;
-    margin-right: 0px;
-    margin-top: 15px;
-}
+
+
+
 
 .HeaderButtons li{
     display: inline-block;
@@ -94,51 +58,57 @@ li a.active{
 }
 
 #logo{
-    width: 60px;
+    width: 65px;
     margin-left: 40px;
-    margin-top: 10px;
-    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
 
 .info{
-    background-color: rgba(125, 32, 161, 0.7);
-    height: 600px;
+    background-color:rgba(23, 25, 134, 0.7);
+    height: 100%;
+    width: 100%;
     backdrop-filter: blur(10px);
     color: white;
-    margin-top: 150px;
-    display: flex;
-    position: absolute;
-    z-index: -1;
+    
+    display: block;
+    
+    
+    
+}
+
+.info p{
+    text-align: justify;
+}
+
+#imgContainer{
+    width: 100%;
+   
 }
 
 #GameDevLogo{
-    width: 500px;
-    height: 500px;
-    border-radius: 400px;
+    width: 20%;
+    height: auto;
+    border-radius: 50px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 38%;
+    margin-top: 15%;
+    
 }
 
 .MaxKruger h1{
     font-size: 72px;
-    font-weight: bold;
-    display: flex;
-    
+    font-weight: bold;   
+    margin-left: 38%;
 }
 
 .MaxKruger{
-    display: inline-block;
-   
+    display: block;
+   align-self: center;
     
 }
-#quote{   
-    margin-top: -40px;
-    margin-left:30px;
-    font-size: 36px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(173, 172, 172);
 
-}
 
 
 .DescriptionList li span{
@@ -149,6 +119,15 @@ li a.active{
 .DescriptionList li{
     color: rgb(125, 32, 161);
     font-size: 24px;
+    
+}
+
+#question1{
+    margin-left: 40%;
+}
+
+#question2{
+    margin-left: 39%;
 }
 
 .DescriptionList{
@@ -166,49 +145,52 @@ ul p{
     margin-right: 50px;
 }
 
-.burger-button{
-    float: right;
-    color: white;
-    font-size: 25px;
-    margin-top: 27px;
-    margin-right: 20px;
-    cursor: pointer;
-    display: none;
-}
+
 
 #check{
     display: none;
 }
 
-@media (max-width: 1800px){
-    .burger-button{
-        display: block;
-    }
-    .HeaderButtons{
-        position: fixed;
-        width: 100%;
-        background: rgb(72, 18, 94);
-        height: 100vh;
-        text-align: center;
-        top: 80px;
-        left: -120%;
-    }
-
-    .HeaderButtons li{
-        display: block;
-        padding: 30px 0px;
-    }
-
-    .HeaderButtons li a{
-        font-size: 32px;
-        text-transform: uppercase;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
+.container button{
+    background: rgb(255, 92, 92);
+    color: black;
+    border-radius: 5px;
+    border: 5px solid black;
+    padding: 10px 20px;
+    margin-left: 40%;
+    transition: ease-in-out 0.5s;
+}
+
+.quoteButton:hover{
+    background: rgb(174, 212, 255);
+    color: black;
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#quote{
+    margin-left: 20%;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(173, 172, 172);
+}
+
+.article{
+    width: 100%;
+}
+
+#more{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    
+}
 
 
 

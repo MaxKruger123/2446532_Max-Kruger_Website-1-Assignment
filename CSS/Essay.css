@@ -1,0 +1,112 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(images/pexels-lucie-liz-3165335.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+.html{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    background-color: rgba(125, 32, 161, 0.7);
+    backdrop-filter: blur(7px);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    flex-direction: row;
+    display: flex;
+    
+    
+}
+
+
+.HeaderButtons li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 7px;
+    padding-right: 30px;
+    
+}
+
+.HeaderButtons li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    border: 5px solid rgb(83, 13, 83);
+    padding: 5px 5px;
+    border-radius: 15px;
+}
+
+li a.active{    
+    color: rgb(125, 32, 161);
+    background: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+#logo{
+    width: 65px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.info{
+    background-color:rgba(23, 25, 134, 0.7);
+    height: 150vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    color: white;
+    position: absolute;
+    display: inline-block;
+    margin-top: 80px;
+    overflow: auto;
+    
+}
+
+.info p{
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.info h1{
+    margin-left: 20%;
+}
+
+.essay{
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

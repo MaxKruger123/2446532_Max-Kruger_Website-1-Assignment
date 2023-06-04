@@ -8,50 +8,64 @@
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/IndexStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS/index.js"></script>
 </head>
 <body>
-    <nav class="Header">
+    <header class="Header">
         <img src="CSS/images/M.png" alt="MaxKruger Logo" id="logo">
         
         
-        <label for="check" class="burger-button"><i class="fa fa-list-ul"></i></label>
-        <input type="checkbox" id="check">
+        
+        
 
         <ul class="HeaderButtons">
+            <nav>
             <li><a href="index.html" class="active">Home</a></li>
             <li><a href="Blogs.html">Blogs</a></li>
             <li><a href="DesignSection.html">Design</a></li>
             <li><a href="Essay.html" >Essay</a></li>
-            <li><a href="Port.html">Portfolio</a></li>
-            <li id="Search"><input type="text" placeholder="Search.."></li>            
-            
+            <li><a href="Port.html">Portfolio</a></li>                       
+            </nav>
         </ul>
        
 
         
-    </nav>
+    </header>
 
     
 
-    <nav class="info">
+    <div class="info">
         
+        <div id="imgContainer">
         <img src="CSS/images/Profile Photo.jpg" alt="" id="GameDevLogo">
+        </div>
         <article class="MaxKruger">
             
             <h1>Max Kruger</h1>
-            <p id="quote">- "There is a direct corrolation between practice and result"</p>         
+            
+                     
             <ul class="DescriptionList">
-                <li><span>Who is Max Kruger?</span></li>
+                <li id="question1"><span>Who is Max Kruger?</span></li>
                 <p>Welcome to my website! I am Max Kruger. I study at The University of Witwatersrand in South Africa. I am currently a full-time student studying Digital Arts. I have a bunch of hobbies and interests all in the field of Gaming and Game Development. Check out some of my work!</p>
-                <li><span>What's with the website?</span></li>
+                <li id="question2"><span>What's with the website?</span></li>
                 <p>Well, I use this website not only to show off my web development skills, but also as a for employers to find more out about me. Think of it like an online CV!  This is a great place for me to show off my work and portfolio and to also share my interests and my socials to those who would like to see it!</p>
             </ul>
+
+            <section class="container">
+                <article class="article">
+                  <h3 id="quote">"There is a direct correlation between practice and result."</h3>
+                  <button class="quoteButton" onclick="getQuote()">Generate Random Max Quote</button>
+  
+                </article>
+            </section>
+
+            <p id="more">If you are interested in finding out more about me then you should go and check out my portfolio page where I share my interests, hobbies and more!</p>
             
         </article>
 
         
         
-    </nav>
+    </div>
 
     
 </body>

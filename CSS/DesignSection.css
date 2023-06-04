@@ -1,8 +1,11 @@
-body{
+html, body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: url(images/pexels-lucie-liz-3165335.jpg);
     background-size: cover;
-    height:  100vh;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
 }
 
 .Header{
@@ -10,14 +13,17 @@ body{
     backdrop-filter: blur(7px);
     height: 80px;
     width: 100%;
+    position: fixed;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    z-index: 1000;
 }
 
 
 
-.HeaderButtons{
-    float: right;
-    margin-right: 740px;
-}
+
 
 .HeaderButtons li{
     display: inline-block;
@@ -47,23 +53,22 @@ li a.active{
 }
 
 #logo{
-    width: 60px;
+    width: 65px;
     margin-left: 40px;
-    margin-top: 10px;
-    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .Design{
     background-color: rgba(23, 25, 134, 0.7);
-    backdrop-filter: blur(0px);
-    height: 100%;
+    backdrop-filter: blur(10px);
+    height: 1200%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    display: inline;
-    z-index: 1;
-    position: absolute;
+    
+    
+    display: block;
+    
+    
 }
 
 
@@ -78,30 +83,34 @@ li a.active{
     margin-left: 50px;
 }
 
-.DesignSectionHeading{
-    margin-top: 50px;
-    
-    
+#BackButton:hover{
+    border: 5px solid gold;
 }
 
+
+
 .Heading{
-    margin-left: 450px;
+    margin-left: 29%;
     font-size: 46px;
-    color: rgb(125, 32, 161);
-    background-color: white;
-    padding: 10px 20px;
+    color: white;
+    font-style: bold;
+    font-size: 72px;
+    
+    
     border-radius: 25px;
 }
 
 .Document{
     background-color: white;
-    width: 90%;
-    height: 1000%;
-    margin-left: 80px;
+    width: 80%;
+    height: 140%;
+    margin-left: 12%;
     border-radius: 50px;
     margin-top: 40px;
     text-align: center;
     display: inline-block;
+    margin-top: 10%;
+    
     
 }
 
@@ -112,14 +121,16 @@ li a.active{
     text-align: justify;
     margin-left: 50px;
     margin-right: 50px;
+    text-justify: auto;
 }
 
 .Document span{
-    background-color: rgb(125, 32, 161);
-    color: white;
-    padding: 10px 15px;
-    border-radius: 25px;
     
+    color: rgb(125, 32, 161);
+    padding: 10px 15px;
+    text-shadow: 10px;
+    font-size: 34px;
+   
     
 }
 
@@ -129,6 +140,20 @@ li a.active{
     margin-top: 30px;
     line-height: normal;
     display: inline-block;
+}
+
+.images{
+    display: block;
+    position: inherit;
+      
+}
+
+.homepageimage{
+    
+    width: 50%;
+    height: 50%;
+    margin-right: 40%;
+    margin-left: 40%;
 }
 
 #DocumentAlign{
@@ -142,17 +167,12 @@ li a.active{
     margin-top: 50px;
 }
 
-.Document img{
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    margin-left: 550px;
-}
 
-#PortfolioImage{
+
+.PortfolioImage{
     transform: rotate(270deg);
-    width: 400px;
-    margin-left:30px;
+    
+    
 }
 
 #HomePageImage{
@@ -160,63 +180,134 @@ li a.active{
     
 }
 
-#BlogsImage{
+.BlogsImage{
     transform: rotate(270deg);
 }
 
-#DesignImage{
+.DesignImage{
     transform: rotate(270deg);
-    margin-left: 30px;
+    
 }
 
-#SketchOne{
-    transform: rotate(270deg);
-}
-
-#SketchTwo{
+.SketchOne{
     transform: rotate(270deg);
 }
 
-#FinalSketch{
+.SketchTwo{
+    transform: rotate(270deg);
+}
+
+.FinalSketch{
     transform: rotate(270deg);
 }
 
 #Homepage{
-    margin-left: 0px;
-    width: 500px;
-    height: 400px;
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
 }
 
 #BlogWireframe{
-    transform: rotate(270deg);
-    width: 300px;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: -90px;
-}
-
-#Design{
-    transform: rotate(270deg);
-    width: 300px;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: -90px;
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
 }
 
 #Weekly{
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
     transform: rotate(270deg);
-    width: 300px;
-    height: 500px;
-    margin-left: 100px;
-    margin-top: -90px;
+}
+
+#Portfolio{
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
+}
+
+#Design{
+    margin-left: 5%;
+    width: 40%;
+    height: auto;
+    transform: rotate(270deg);
 }
 
 
 
-#Portfolio{
-    margin-left: 0px;
-    width: 500px;
-    height: 300px;
-    
-    
+
+
+
+
+#img1{
+    width: 40%;
+    height: auto;
+    position: inherit;
+    margin-left: 31%;
+}
+
+#img2{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
+    transform: rotate(270deg);
+
+
+}
+
+#img3{
+    width: 60%;
+    height: auto;
+    position: inherit;
+    margin-left: 0;
+   
+
+
+}
+
+#img4{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
+   
+
+
+}
+
+#img5{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
+}
+
+#img6{
+    width: 60%;
+    height: auto;
+    position: inherit;
+    margin-left: 0;
+
+}
+
+#img7{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
+}
+
+#img8{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
+}
+
+#img9{
+    width: 35%;
+    height: 10%;
+    position: inherit;
+    margin-left: 0;
 }

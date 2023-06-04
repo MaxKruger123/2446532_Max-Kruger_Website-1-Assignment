@@ -7,9 +7,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="CSS/Weekly Blogs CSS/normalize2.0.css">
     <link rel="stylesheet" href="CSS/Weekly Blogs CSS/Week1.css">
+    <script src="Js/BackButton.js"></script>
 </head>
 <body>
-    <nav class="Header">
+    <header class="Header">
         <img src="CSS/images/M.png" alt="MaxKruger Logo" id="logo">
         
         
@@ -20,20 +21,20 @@
             <li><a href="Essay.html">Essay</a></li>
             <li><a href="Port.html">Portfolio</a></li>
         </ul>
-    </nav>
+    </header>
 
-    <nav class="Blog">
+    <div class="Blog">
 
         <article class="Week1BlogPost">
             
-            
-            <h1> <a href="Blogs.html" id="BackLink"><span id="Back"> <- Back</span></a> <span id="Week1heading">Week 1 Website Development Blog - Starting Out</span></h1>
+            <button id="Back" onclick="backToHome()">Back</button>
+            <div><h1>  <span id="Week1heading">Week 1 Website Development Blog - Starting Out</span></h1></div>
             <p><br/><br/>Setting Up GitHub: In the first week we were introduced to GitHub Desktop. At first it was a bit confusing since it is a new program we are using but I'm sure as we continue using it throughout the course it will get easier. However, I do think that it is an extremely useful tool for backups and also keeping track of important changes and I can easily imagine it being used in the professional field to develop in co-ordination with others.
 
                 <br/><br/><br/>Library Of Babel: I read the library of babel probably up to 3 times before I really understood what I was reading due to the complex high standard of English it is written in. However, the idea of the library itself fascinated me and I would not stop talking about it for the following 2 days after reading it. I suppose the thought that got me so ravelled in it was the thought that everything that has, can or will be written already exists in this library. And the website that was revealed to us in a follow up lecture only heightened me experience with this idea. It was so simple yet so complicated. To think that a vaccine for a future disease is already in a book somewhere is almost pleasing but is also gruelling  because the chances of finding said book can basically be calculated to 0%. Anyway that is my take on my last week, but I have to say that this is the course I am looking forward to the most this year as it has so many opportunities that comes with it. 
                 
                 <br/><br/><br/>Goal for this course: I'd say my goal for the course is to be able to create a fully fledged website that I can use in my portfolio that will come in handy when I hand in my CV one day.</p>
         </article>      
-    </nav>
+    </div>
 </body>
 </html>
