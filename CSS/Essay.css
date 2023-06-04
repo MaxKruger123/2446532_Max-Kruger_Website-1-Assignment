@@ -29,6 +29,40 @@ body{
     
 }
 
+@media screen and (max-width: 870px) {
+    .HeaderButtons nav li a{
+        font-size: 24px;    
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .HeaderButtons nav li a{
+        font-size: 16px;    
+    }
+
+    
+
+}
+
+@media screen and (max-width: 655px) {
+    .HeaderButtons nav li a{
+        font-size: 16px;    
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .HeaderButtons nav li a{
+        font-size: 10px;    
+    }
+}
+
+@media screen and (min-width: 875px) {
+    .HeaderButtons nav li a{
+        font-size: 30px;    
+    }
+
+}
 
 .HeaderButtons li{
     display: inline-block;
@@ -89,7 +123,7 @@ li a.active{
 }
 
 .info h1{
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .essay{

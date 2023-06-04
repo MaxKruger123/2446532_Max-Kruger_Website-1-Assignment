@@ -23,9 +23,40 @@ body{
 
 
 
+@media screen and (max-width: 870px) {
+    .HeaderButtons nav li a{
+        font-size: 24px;    
+    }
 
+}
 
+@media screen and (max-width: 770px) {
+    .HeaderButtons nav li a{
+        font-size: 16px;    
+    }
 
+    
+
+}
+
+@media screen and (max-width: 655px) {
+    .HeaderButtons nav li a{
+        font-size: 16px;    
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .HeaderButtons nav li a{
+        font-size: 10px;    
+    }
+}
+
+@media screen and (min-width: 875px) {
+    .HeaderButtons nav li a{
+        font-size: 30px;    
+    }
+
+}
 
 
 
@@ -112,12 +143,12 @@ li a.active{
 
 
 .DescriptionList li span{
-    background-color: white;
+    
     padding: 5px 10px;
     border-radius: 15px;
 }
 .DescriptionList li{
-    color: rgb(125, 32, 161);
+    color: white;
     font-size: 24px;
     
 }
