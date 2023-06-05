@@ -45,3 +45,7 @@ function week11Click(){
 function week12Click(){
     window.location.replace("Week12.html");
 }
+
+function week13Click(){
+    window.location.replace("Week13.html");
+}

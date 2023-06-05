@@ -10,62 +10,68 @@
     
 </head>
 <body>
-    <nav class="Header">
+    <header class="Header">
         <img src="CSS/images/M.png" alt="MaxKruger Logo" id="logo">
         
         
         
         <ul class="HeaderButtons">
             <nav>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Blogs.html">Blogs</a></li>
-            <li><a href="DesignSection.html">Design</a></li>
-            <li><a href="Essay.html">Essay</a></li>
-            <li><a href="Port.html" class="active">Portfolio</a></li>
+            <li><a href="index.html" class="u-url">Home</a></li>
+            <li><a href="Blogs.html" class="u-url">Blogs</a></li>
+            <li><a href="DesignSection.html" class="u-url">Design</a></li>
+            <li><a href="Essay.html" class="u-url">Essay</a></li>
+            <li><a href="Port.html" class="active u-url">Portfolio</a></li>
         </nav>
         </ul>
-    </nav>
+    </header>
 
-    <nav class="info">
+    <div class="Interests e-content">
         
-        <img src="CSS/images/Profile Photo.jpg" alt="" id="GameDevLogo">
+        
         <article class="MaxKruger">
             
-            <h1>Who am I?</h1>
+            <h1 class="heading1">Interests & Hobbies</h1>
                      
-            <ul class="DescriptionList">
-                <li><span>Who is Max Kruger?</span></li>
-                <p>Welcome to my website! I am Max Kruger. I study at The University of Witwatersrand in South Africa. I am currently a full-time student studying Digital Arts. I have a bunch of hobbies and interests all in the field of Gaming and Game Development. Check out some of my work below! I love making games in my free time, both in Game Jams and when I just feel like it. My passion is in FPS games since this is the genre I grew up with and I still love to this day! Games such as Counter Strike, Call Of Duty and Battlefield have always been staples in my play time. One day I decided to try actually recreate some of the system we see in these games and it all of a sudden making games become something I love!</p>
+            
+                <h2 class="heading2">Game Development</h2>
+                <p>As I'm sure you know by now I love making games! In 2021 I started my Game Development journey through university. My passion quickly grew past this and so I started working on it in my own time. By 2023 I had a vision to start my own indie game project in the year. My game is greatly inspired by my favourate childhood game Ratchet and Clank. Although little progress has been made, I have made peace with the fact that this is going to be a huge learning process for me that will take time. Whilst I make this game my University studies must go on. The assignments given to me in class have been massively beneficial for me to learn about different genres, new ways of coding, more efficient coding, level designs and so much more. Below are 2 of my favorate games I have made throughout my studies with descriptions of my development process.</p>
                 
-            </ul>
+                <div class="games">
+                    <img src="CSS/images/IxDProcessImages/SpaceGame.PNG" alt="Space Inavders Theme Shooter game image" class="spaceImage u-photo">
+                    <div class="SpaceInvadersHeading"><h3 class="heading3">Space invaders 2D Bullet Hell</h3>
+                         <p>My first time making a 2D shooter game was an amazing experience. Not only was it extremely fun to make but it also helped me tap into the video game genre I love the most, Shooters.
+                            I breath shooter games and when I first got the assignment I could not wait to get started. The main theme of my game was Space Invaders. It is an legendary title, and a goal of mine was to almost make the game feel as nostalgic to those who have experienced the first Space Invaders game as possible.
+                            This was not all though, this project provided me with an great opportunity to get into the core systems of shooters. One of them is the shooting mechanic. I learnt how to use triggers, colliders and different forces to move things and create different variations of enemies. Following this I also decided to create player abilities which is seen in many modern age shooter games. This was a challenge at first but I soon got the hang of it. Lastly I had to focus on level design in order to create progressive difficulty as the plyer worked their way through the game. Overall, creating this game was loads of fun and I learnt so much. This will definately aid in my indie development and I cannot wait to create a 3D shooter game next!
+                         </p>
+                    </div>
+                </div>
+
+                <div class="games">
+                    <img src="CSS/images/IxDProcessImages/IdleClicker.PNG" alt="Idle Clicker gameplay image" class="spaceImage u-photo">
+                    <div class="SpaceInvadersHeading"><h3 class="heading3">Monsters Themed Idle Clidker game</h3>
+                         <p>This again was my first time creating a game in this genre but I was up for a challenge. I found the actual creating of the different mechanics to be quite easy since it was just changing 1 variable everytime the player clicks. The hardest part of thegame was balancing out every monster you defeat. My game was inspired by cookie cicker and Clicker heroes which both have similar core systems that is in every idle clidker.
+                            However, I personally am not an fan of normal Idle Clicker games, I find it frustrating that there is no end goal. You cannot win or lose, it is just an infinite loop of the same thing. So I challeneged myself to experiment with the genre itself by creating a simple player health bar that changed everything. Now from a certain point during the game, the monster would damage the player and the player could die if they werent pying attention. Although this goes agaisnt the premis of an idle clicker I could not stand playing a boring game.
+                            Players would constantly be under tension, trying to kill enemies while also constantly buying items to strenghtem themselves. Overall, it was fun changing twisting the genre's norms and creating an challenging game. I learnt a lot about the process of balancing a game and different enemy types. 
+                         </p>
+                    </div>
+                </div>
+
+                <h2 class="heading4">E-Sports</h2>
+                <p>I am a super competitive individual and what a better way to get into the competitive spirit than e-sports. I have been a fan of not only watching e-sports but I played in e-sports teams for years! From Counter strike: Global Offenive in 2014 all the way till now I still love the e-sports scene and watch different games every weekend. Mostly Valorant and Counter Strike. Only problem is I'm not good eough at games anymore to compete, but I would still love to take part in the e-sports scene! Check out my UI/UX development skills in the Blogs page where I speak about the creation of this website!
+                   Lately I have been super into the Valorant Competitive scene where my favorate team Sentinals are the underdogs at the moment. I dream of one day being able to travel to different tournaments around the world to witness the greatest of matches. If you want to know more about what valorant is or just why I love the e-sports scene so much, I erge you to watch the video below.
+
+                </p>
+
+                <iframe  class="Video" width="560" height="315" src="https://www.youtube.com/embed/FQ1b_0xcwpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+            
             
         </article>
 
         
         
-    </nav>
-
-    <nav class="Interests">
-        
-        <img src="CSS/images/pexels-kevin-ku-577585.jpg" alt="" id="GameDevLogo">
-        <article class="MaxKruger">
-            
-            <h1>Interests</h1>
-                     
-            <ul class="DescriptionList">
-                <li><span>Game Development</span></li>
-                <p>As I'm sure you know by now I love making games! In 2021 I started my Game Development journey through university. My passion quickly grew past this and so I started working on it in my own time. By 2023 I had a vision to start my own indie game in that year. My inspiration was a favourate Child Hood game called Ratchet and Clank. Check out what I have done so far by clicking on the image below.</p>
-                <a href=""><img src="CSS/images/RC_RiftApart_Heroes_PS5-scaled.jpg" alt="Game: Ratchet And Clank Image" id="Ratchet"></a>
-                <li><span>E-Sports</span></li>
-                <p>I am a super competitive individual and what a better way to get nito the competitive spirit than e-sports. I have been a fan of not only watching e-sports but I played in e-sports teams for years! From Counter strike in 2015 all the way till now I still love the e-sports scene and watch different games every weekend. Mostly Valorant and Counter Strike. Only problem is I'm not good eough at games anyore to compete, but I would still love to take part in the e-sports scene! Check out my UI/UX development skills in the Bloogs page where I speak about the creation of this website!</p>
-                <li><span><a href="Blogs.html" id="BlogLink">Go to Blogs Section -></a></span></li>
-            </ul>
-            
-        </article>
-
-        
-        
-    </nav>
+    </div>
 
     
 </body>
